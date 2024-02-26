@@ -18,7 +18,7 @@
  
 
 FROM quay.io/suhailtechinfo/suhail-v2
-RUN git clone https://github.com/Nexxer777/Suhail-Md /root/Suhail
+RUN git clone https://github.com/Nexxer777/NEX-BOT /root/Suhail
 WORKDIR /root/Suhail/
 RUN npm install
 EXPOSE 8000
